@@ -1,6 +1,6 @@
-import CommentList from '@/components/porsts/comment-list';
-import PostCreateForm from "@/components/porsts/post-create-form";
-import PostList from '@/components/porsts/post-list';
+import CommentList from '@/components/posts/comment-list';
+import PostCreateForm from "@/components/posts/post-create-form";
+import PostList from '@/components/posts/post-list';
 import { fetchPostByTopicSlug } from '@/db/queries/posts';
 import { Divider } from '@nextui-org/react';
 

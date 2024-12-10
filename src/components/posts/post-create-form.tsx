@@ -10,7 +10,7 @@ import {
 } from "@nextui-org/react";
 import * as actions from "@/actions";
 import { useFormState } from "react-dom";
-import FormButton from "../comments/form-button";
+import FormButton from "../common/form-button";
 
 interface PostCreateFormProps {
   slug: string;
