@@ -11,6 +11,9 @@ const paths = {
   postShow(topicSlug: string, postId: string) {
     return `/topics/${topicSlug}/posts/${postId}`;
   },
+  searchPage(term: string) {
+    return `/search?term=${term}`;
+  }
 };
 
 export default paths;

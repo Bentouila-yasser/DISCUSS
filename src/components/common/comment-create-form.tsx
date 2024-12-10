@@ -1,6 +1,5 @@
 "use client";
 
-import { useActionState } from "react";
 import { useEffect, useRef, useState } from "react";
 import { Textarea, Button } from "@nextui-org/react";
 import FormButton from "@/components/common/form-button";
